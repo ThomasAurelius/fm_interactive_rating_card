@@ -11,16 +11,16 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution { font-size: 12px; text-align: center; color: white}
+    .attribution a { font-size: 12px; color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
 
   <!-- Rating state start -->
 
-  <div class="main flex">
-    <div class="rating-card">
+  <main class="main flex">
+    <article class="rating-card">
       <button class="star">
         <img src="./images/icon-star.svg" alt="star">
       </button>
@@ -34,14 +34,13 @@
         <button class="rating-btn">2</button>
         <button class="rating-btn">3</button>
         <button class="rating-btn">4</button>
-        <button class="rating-btn">5</button>
-    
+        <button class="rating-btn">5</button>    
       </div>
       <button class="submit-btn">SUBMIT</button>
-    </div>
+    </article>
     <!-- Rating state end -->
     <!-- Thank you state start -->
-    <div class="thank-you-card hidden">
+    <article class="thank-you-card hidden">
       <img src="./images/illustration-thank-you.svg" alt="phone with card">
       <button class="selectedRating">You selected&nbsp;<span class="rating-number"></span>&nbsp;out of 5</button>
       <h2>Thank you!</h2>
@@ -49,12 +48,12 @@
         We appreciate you taking the time to give a rating. If you ever need more support,
         don’t hesitate to get in touch!
       </p>
-    </div>
+    </article>
     <!-- Thank you state end -->
-  </div>
+  </main>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Thomas Aurelius</a>.
     </div>
   <script src="./script.js"></script>
 </body>

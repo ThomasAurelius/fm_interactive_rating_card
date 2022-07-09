@@ -21,7 +21,11 @@ ratingButtons.forEach(button => {
 
 submitButton.addEventListener('click', (e) => {
     e.preventDefault();
+    if (!rating) {
+         alert('Please select a rating');
+    } else {
     ratingCard.classList.add('hidden');
     thankYouCard.classList.remove('hidden');
     ratingNumber.innerText = rating;
+    }
 })

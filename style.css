@@ -105,14 +105,14 @@ body {
 
 .rating-card {
 	width: 400px;
-	height: 350px;
+	height: 360px;
 	background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
 	margin: auto;
 	padding: 20px;
 	border-radius: 15px;
 }
 
-.rating h1 {
+.rating-card h1 {
 	color: white;
 }
 
